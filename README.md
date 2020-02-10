@@ -8,7 +8,7 @@ _Just an example/recommendation of how to organize sass files_
 
 1. [Base Estructure](#Base-Estructure)
 1. [Index File](#Index-File)
-1. [Variables](src/SCSS/shared/normalize.scss)
+1. [Variables](src/SCSS/shared/_variables.scss)
 
 
 ## Base Estructure
@@ -39,3 +39,4 @@ _This file contains general imports of main files_
 .
 .
 ```
+[Check the file](src/SCSS/index.scss)
