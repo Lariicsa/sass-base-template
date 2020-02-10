@@ -1,0 +1,55 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 align="center">
+  Sass folders and files organization
+</h1>
+
+<p><em>Just an example/recommendation of how to organize sass files</em></p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#Base-Estructure">Base Estructure</a></li>
+<li><a href="#Index-File">📄Index File</a></li>
+<li><a href="src/SCSS/components">📂Components</a><ol>
+<li><a href="src/SCSS/components/footer.scss">📄Footer</a></li>
+<li><a href="src/SCSS/components/header.scss">📄Header</a></li>
+</ol>
+</li>
+<li><a href="src/SCSS/shared">📂Shared</a><ol>
+<li><a href="src/SCSS/shared/_mixins.scss">📄mixins</a></li>
+<li><a href="src/SCSS/shared/_variables.scss">📄mixins</a></li>
+<li><a href="src/SCSS/shared/global.scss">📄mixins</a></li>
+<li><a href="src/SCSS/shared/normalize.scss">📄mixins</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="base-estructure">Base Estructure</h2>
+<pre><code>.
+├── src
+  ├── SCSS
+    ├── components
+      ├── header.scss
+      ├── footer.scss
+    ├── shared
+      ├── _mixins.scss
+      ├── _variables.scss
+      ├── global.scss
+      ├── index.scss
+      ├── normalize.scss
+</code></pre><h2 id="index-file">Index File</h2>
+<p><em>This file contains general imports of main files</em></p>
+<pre><code class="lang-css">@import &quot;global/normalize.scss&quot;;
+@import &quot;global/shared.scss&quot;;
+@import &quot;components/about.scss&quot;;
+@import &quot;components/cards.scss&quot;;
+.
+.
+.
+</code></pre>
+<p><a href="src/SCSS/index.scss">Check the .index.scss file</a></p>
+
+      </body>
+    </html>
