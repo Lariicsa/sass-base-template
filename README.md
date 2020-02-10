@@ -15,11 +15,16 @@ _Just an example/recommendation of how to organize sass files_
     .
     ├── src
       ├── SCSS
-       ├── _mixins.scss
-       ├── _variables.scss
-       ├── global.scss
-       ├── index.scss
-       ├── normalize.scss
+        ├── components
+          ├── header.scss
+          ├── footer.scss
+        ├── shared
+          ├── _mixins.scss
+          ├── _variables.scss
+          ├── global.scss
+          ├── index.scss
+          ├── normalize.scss
+       
 
 ## Index File
 
