@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  padding: 2.4rem 0;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $greyo-end;
+  height: auto;
+  width: 100%;
+  position: relative;
+
+  & > p {
+    font-size: $medium-size;
+
+    & > b {
+      font-size: inherit;
+      font-weight: $bold;
+    }
+  }
+
+  .inner-container {
+    justify-content: space-between;
+
+    .colHalf {
+      max-width: 24rem;
+    }
+  }
+}
