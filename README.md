@@ -7,8 +7,15 @@ _Just an example/recommendation of how to organize sass files_
 ## Table of Contents
 
 1. [Base Estructure](#Base-Estructure)
-1. [Index File](#Index-File)
-1. [Variables](src/SCSS/shared/_variables.scss)
+1. [📄Index File](#Index-File)
+1. [📂Components](src/SCSS/components)
+  - [📄Footer](src/SCSS/components/footer.scss)
+  - [📄Header](src/SCSS/components/header.scss)
+1. [📂Shared](src/SCSS/shared)
+  - [📄mixins](src/SCSS/shared/_mixins.scss)
+  - [📄mixins](src/SCSS/shared/_variables.scss)
+  - [📄mixins](src/SCSS/shared/global.scss)
+  - [📄mixins](src/SCSS/shared/normalize.scss)
 
 
 ## Base Estructure
@@ -39,4 +46,4 @@ _This file contains general imports of main files_
 .
 .
 ```
-[Check the file](src/SCSS/index.scss)
+[Check the .index.scss file](src/SCSS/index.scss)
