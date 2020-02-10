@@ -2,3 +2,17 @@
 *.css.map
 *.sass.map
 *.scss.map
+
+.DS_Store
+.editorconfig
+yarn-debug.log*
+yarn-error.log*
+_site/
+.sass-cache/
+.jekyll-metadata
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.sln
