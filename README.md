@@ -4,7 +4,7 @@
 
 _Just an example/recommendation of how to organize sass files_
 
-[Here](https://lariicsa.github.io/sass-base-template/) you can check out the demo
+[Here you can check out the demo](https://lariicsa.github.io/sass-base-template/)
 
 ## Table of Contents
 
