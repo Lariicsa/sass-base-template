@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap");
+
+//Font
+$bold: 700;
+$regular: 400;
+$font-main: "Montserrat", sans-serif;
+$font-secondary: "Roboto", sans-serif;
+
+//Font-size
+$small-size: 1.2rem;
+$medium-size: 1.4rem;
+$regular-size: 1.6rem;
+$big-size: 1.8rem;
+$small-title: 2.4rem;
+$big-title: 3.2rem;
+$big-special: 4.8rem;
+
+//Colors
+$accent: #52a9e1;
+$blackio: #454f58;
+$greyo: #4d575f;
+$bluerple: #6a86da;
+$blue-lite: #e1e7f8;
+$border-grey: #f1f1f1;
+$dryer: #ebeff0;
+$girly: #ff5077;
+$gloss: #ffccd7;
+$grad-bg: linear-gradient(0deg, rgba(255, 107, 107, 0.5) 0%, rgba(224, 41, 98, 0.4) 100%);
+$grad-bg-solid: rgb(255, 107, 107);
+
+//Larges
+$large: 100%;
+$medium: 48%;
+$small: 31%;
+
+//Breakpoints
+$mobile: 401px !default;
+$tablet: 769px !default;
+$desktop: 1025px !default;
