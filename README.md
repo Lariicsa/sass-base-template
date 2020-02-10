@@ -8,7 +8,7 @@ _Just an example/recommendation of how to organize sass files_
 
 1. [Base Estructure](#Base-Estructure)
 1. [Index File](#Index-File)
-1. [Variables](#Variables)
+1. [Variables](#src/SCSS/shared/normalize.scss)
 
 
 ## Base Estructure
