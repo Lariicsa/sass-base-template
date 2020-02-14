@@ -4,6 +4,8 @@
 
 _Just an example/recommendation of how to organize sass files_
 
+[Here you can check out the demo](https://lariicsa.github.io/sass-base-template/)
+
 ## Table of Contents
 
 1. [Base Estructure](#Base-Estructure)
@@ -13,9 +15,9 @@ _Just an example/recommendation of how to organize sass files_
     2. [📄Header](src/SCSS/components/header.scss)
 4. [📂Shared](src/SCSS/shared)
     1. [📄mixins](src/SCSS/shared/_mixins.scss)
-    2. [📄mixins](src/SCSS/shared/_variables.scss)
-    3. [📄mixins](src/SCSS/shared/global.scss)
-    4. [📄mixins](src/SCSS/shared/normalize.scss)
+    2. [📄variables](src/SCSS/shared/_variables.scss)
+    3. [📄global](src/SCSS/shared/global.scss)
+    4. [📄normalize](src/SCSS/shared/normalize.scss)
 
 
 ## Base Estructure
