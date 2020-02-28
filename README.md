@@ -12,7 +12,7 @@ _Just an example/recommendation of how to organize sass files_
 2. [📄Index File](#Index-File)
 3. [📂Components](src/SCSS/components)
   1. [📄Footer](src/SCSS/components/footer.scss)
-    1. [📄Using SVG Images from Mixins](src/SCSS/components/footer.scss)
+     1. [📄Using SVG Images from Mixins](src/SCSS/components/footer.scss)
   2. [📄Header](src/SCSS/components/header.scss)
 4. [📂Shared](src/SCSS/shared)
   1. [📄mixins](src/SCSS/shared/_mixins.scss)
